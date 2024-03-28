@@ -1,6 +1,7 @@
 from FibCaesar import FibonacciCaesar
 from PlayF import Playfair
 from Vign import Vignere
+# This class includes the functions required to encrypt and decrypt text using the given three algorithms back and forth and in succession.
 class MixCipher():
     def __init__(self,Key):#key is a word
         self.Key=Key
